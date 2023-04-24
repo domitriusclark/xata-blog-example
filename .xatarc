@@ -1,5 +1,5 @@
 {
-  "databaseURL": "https://my-workspace-pvg8h1.us-east-1.xata.sh/db/test-db",
+  "databaseURL": "https://my-workspace-879rhd.us-east-1.xata.sh/db/testing",
   "codegen": {
     "output": "src/xata.ts"
   }
