@@ -17,6 +17,7 @@ const tables = [
       { name: "author", type: "link", link: { table: "Users" } },
       { name: "createdAt", type: "datetime" },
       { name: "views", type: "int" },
+      { name: "tags", type: "multiple" },
     ],
   },
   {
@@ -46,7 +47,7 @@ export type DatabaseSchema = {
 const DatabaseClient = buildClient();
 
 const defaultOptions = {
-  databaseURL: "https://my-workspace-pvg8h1.us-east-1.xata.sh/db/test-db",
+  databaseURL: "https://my-workspace-879rhd.us-east-1.xata.sh/db/testing",
 };
 
 export class XataClient extends DatabaseClient<DatabaseSchema> {
