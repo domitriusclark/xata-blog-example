@@ -1,6 +1,6 @@
 {
   "databaseURL": "https://my-workspace-pvg8h1.us-east-1.xata.sh/db/test-db",
   "codegen": {
-    "output": "lib/xata.ts"
+    "output": "src/xata.ts"
   }
 }
